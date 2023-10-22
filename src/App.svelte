@@ -37,6 +37,9 @@
     {/if}
   </div>
 </main>
+<footer>
+  © { (new Date()).getFullYear() } Joonas Salojärvi // <a href="https://joonas.codes/">joonas.codes</a>
+</footer>
 
 <style>
 main {
@@ -44,4 +47,12 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+}
+
 </style>
